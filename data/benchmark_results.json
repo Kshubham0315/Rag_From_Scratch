@@ -1,0 +1,734 @@
+{
+  "dense": {
+    "mean_precision": 0.22400000000000003,
+    "mean_recall": 1.0,
+    "mean_f1": 0.36190476190476195,
+    "mean_mrr": 0.9733333333333333,
+    "per_case": [
+      {
+        "query": "What is HTTP and what is it used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is HTTP stateless?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What HTTP versions exist?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTP use by default?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTPS use?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the GET method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is the GET method idempotent?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the difference between GET and POST?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the PUT method do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does PUT differ from PATCH?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a DELETE request do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a HEAD request return?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the OPTIONS method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the 200 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 404 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is a 301 redirect?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 500 error indicate?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Host header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the Content-Type header specify?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Authorization header used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does Cache-Control work?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is content negotiation in HTTP?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 0.3333333333333333
+      },
+      {
+        "query": "What is chunked transfer encoding?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an HTTP persistent connection?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an ETag header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      }
+    ]
+  },
+  "sparse": {
+    "mean_precision": 0.21600000000000003,
+    "mean_recall": 0.96,
+    "mean_f1": 0.3485714285714286,
+    "mean_mrr": 0.8933333333333333,
+    "per_case": [
+      {
+        "query": "What is HTTP and what is it used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is HTTP stateless?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What HTTP versions exist?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTP use by default?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTPS use?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the GET method used for?",
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "f1_at_k": 0.0,
+        "mrr": 0.0
+      },
+      {
+        "query": "Is the GET method idempotent?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the difference between GET and POST?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the PUT method do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does PUT differ from PATCH?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a DELETE request do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a HEAD request return?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the OPTIONS method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the 200 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 0.3333333333333333
+      },
+      {
+        "query": "What does a 404 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is a 301 redirect?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 500 error indicate?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Host header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the Content-Type header specify?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 0.5
+      },
+      {
+        "query": "What is the Authorization header used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does Cache-Control work?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 0.5
+      },
+      {
+        "query": "What is content negotiation in HTTP?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is chunked transfer encoding?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an HTTP persistent connection?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an ETag header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      }
+    ]
+  },
+  "hybrid": {
+    "mean_precision": 0.22400000000000003,
+    "mean_recall": 1.0,
+    "mean_f1": 0.36190476190476195,
+    "mean_mrr": 0.98,
+    "per_case": [
+      {
+        "query": "What is HTTP and what is it used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is HTTP stateless?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What HTTP versions exist?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTP use by default?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTPS use?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the GET method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 0.5
+      },
+      {
+        "query": "Is the GET method idempotent?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the difference between GET and POST?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the PUT method do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does PUT differ from PATCH?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a DELETE request do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a HEAD request return?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the OPTIONS method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the 200 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 404 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is a 301 redirect?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 500 error indicate?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Host header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the Content-Type header specify?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Authorization header used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does Cache-Control work?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is content negotiation in HTTP?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is chunked transfer encoding?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an HTTP persistent connection?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an ETag header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      }
+    ]
+  },
+  "hybrid_rerank": {
+    "mean_precision": 0.22400000000000003,
+    "mean_recall": 1.0,
+    "mean_f1": 0.36190476190476195,
+    "mean_mrr": 1.0,
+    "per_case": [
+      {
+        "query": "What is HTTP and what is it used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is HTTP stateless?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What HTTP versions exist?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTP use by default?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What port does HTTPS use?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the GET method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "Is the GET method idempotent?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the difference between GET and POST?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the PUT method do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does PUT differ from PATCH?",
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.5714285714285715,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a DELETE request do?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a HEAD request return?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the OPTIONS method used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the 200 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 404 status code mean?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is a 301 redirect?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does a 500 error indicate?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Host header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What does the Content-Type header specify?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is the Authorization header used for?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "How does Cache-Control work?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is content negotiation in HTTP?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is chunked transfer encoding?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an HTTP persistent connection?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      },
+      {
+        "query": "What is an ETag header?",
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "f1_at_k": 0.33333333333333337,
+        "mrr": 1.0
+      }
+    ]
+  }
+}
