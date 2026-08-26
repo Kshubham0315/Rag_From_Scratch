@@ -7,6 +7,7 @@ This document explains the complete RAG pipeline from the ground up.
 The goal is not simply to build a working RAG system, but to understand **what happens inside each component, why each algorithm is used, and how the components work together**.
 
 ---
+
 ## Table of Contents
 
 1. [RAG Overview](#1-rag-overview)
