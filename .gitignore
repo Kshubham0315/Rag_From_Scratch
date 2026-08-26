@@ -1,2 +1,6 @@
-tests/
 .env
+data\benchmark_results.json
+data\test_cases.json
+.pytest_cache
+.coverage
+venv/
