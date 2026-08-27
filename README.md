@@ -42,13 +42,13 @@ The project focuses on understanding the internal working of a modern RAG pipeli
           ▼                         │
      ┌────┴────┐                    │
      │         │                    │
-     ▼         ▼                    │
- Embeddings   BM25                   │
-     │         │                    │
-     ▼         ▼                    │
- VectorStore  BM25 Index             │
-     │         │                    │
-     └────┬────┘                    │
+     ▼         ▼                    
+ Embeddings   BM25                   
+     │         │                    
+     ▼         ▼                    
+ VectorStore  BM25 Index             
+     │         │                    
+     └────┬────┘                    
           │
           │
           ▼
