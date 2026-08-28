@@ -176,6 +176,7 @@ with st.sidebar:
         value="gpt-4o-mini",
         help="Model identifier for the chosen provider.",
     )
+    
 
     st.divider()
 
