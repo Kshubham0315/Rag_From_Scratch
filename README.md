@@ -374,6 +374,7 @@ Detailed mathematical explanations and implementation notes are available in:
 docs/LEARNING.md
 ```
 
+
 Topics include:
 
 * TF-IDF
@@ -389,3 +390,14 @@ Topics include:
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+<img width="1917" height="921" alt="image" src="https://github.com/user-attachments/assets/71d4a238-2f15-45d7-82bb-ad3f0e6aa6c9" />
+
+<img width="1916" height="922" alt="image" src="https://github.com/user-attachments/assets/0191b5b2-abf8-45bd-8028-f034da7c9e9a" />
+
+<img width="1913" height="917" alt="image" src="https://github.com/user-attachments/assets/97a03f11-e7d6-4eae-9466-9c3a5eff2b13" />
+
+<img width="1912" height="837" alt="image" src="https://github.com/user-attachments/assets/01306394-235c-460c-b797-c8c073ba6d20" />
+
