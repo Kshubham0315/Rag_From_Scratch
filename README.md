@@ -151,6 +151,7 @@ cosine_similarity(A, B) = A · B
 
 when both vectors are L2 normalized.
 
+
 ### BM25
 
 BM25 provides sparse lexical retrieval based on term frequency and inverse document frequency.
