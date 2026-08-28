@@ -129,19 +129,13 @@ class LLMGenerator:
     # ------------------------------------------------------------------
 
     def _call_api(self, messages: list[dict]) -> dict:
-        """
-        POST to {base_url}/chat/completions.
-
-        Raises:
-            requests.HTTPError:  on 4xx / 5xx responses.
-            requests.Timeout:    if the request exceeds self.timeout seconds.
-            requests.ConnectionError: on network failures.
-        """
         url = f"{self.base_url}/chat/completions"
+
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
+
         payload = {
             "model": self.model,
             "messages": messages,
@@ -149,13 +143,27 @@ class LLMGenerator:
             "max_tokens": self.max_tokens,
         }
 
+        print("\n========== GROQ DEBUG ==========")
+        print("URL:", url)
+        print("MODEL:", self.model)
+        print("API KEY PRESENT:", bool(self.api_key))
+
         response = requests.post(
             url,
             headers=headers,
             json=payload,
             timeout=self.timeout,
         )
-        response.raise_for_status()
+
+        print("STATUS:", response.status_code)
+        print("RESPONSE:", response.text)
+        print("================================\n")
+
+        if not response.ok:
+            raise RuntimeError(
+                f"Groq API Error {response.status_code}: {response.text}"
+            )
+
         return response.json()
 
     # ------------------------------------------------------------------

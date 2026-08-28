@@ -159,24 +159,25 @@ with st.sidebar:
     st.divider()
 
     # --- LLM Settings ---
+    # --- LLM Settings ---
     st.subheader("2. LLM Settings")
+
     api_key = st.text_input(
-        "API Key",
-        type="password",
-        placeholder="sk-…",
-        help="OpenAI key or any compatible provider key.",
+    "Groq API Key",
+    type="password",
+    placeholder="gsk_...",
     )
+
     base_url = st.text_input(
         "API Base URL",
-        value="https://api.openai.com/v1",
-        help="Change to use Groq, Together, Ollama, etc.",
+        value="https://api.groq.com/openai/v1",
     )
+
     model = st.text_input(
-        "Model",
-        value="gpt-4o-mini",
-        help="Model identifier for the chosen provider.",
+        "Groq Model",
+        value="openai/gpt-oss-120b",
     )
-    
+
 
     st.divider()
 
